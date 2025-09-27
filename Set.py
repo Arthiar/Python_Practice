@@ -1,4 +1,5 @@
 #Getting input from user for splitting the names/words
+
 Sentence= input("Enter a sentence: ")
 words= Sentence.split()
 print(words)
@@ -8,6 +9,7 @@ result=" ".join(unique)
 print("The final senstence is ", result)
 
 #Union, Intersection and Difference
+
 A= set(map(int, input("Enter the number for A: ").split()))
 B= set(map(int, input("Enter the number for B: ").split()))
 print("The value of A are: ", A)
