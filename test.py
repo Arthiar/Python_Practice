@@ -1,3 +1,4 @@
+
 def place():
     location= 'Erode'
     new= location.replace('Erode','Gobi')
