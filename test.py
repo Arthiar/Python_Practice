@@ -1,5 +1,5 @@
 
-"""def place():
+def place():
     location= 'Erode'
     new= location.replace('Erode','Gobi')
     print(new)
@@ -24,7 +24,7 @@ def list():
     print("The latest list of names", names)
     print("The latest list if songs:", songs)
     print("THe reversed value is", r)
-list()"""
+list()
 
 #lets get input from list
 

@@ -7,12 +7,10 @@ def hello():
     if len(a) != len(n):
         print("Enter the numbers for both a and n equal")
         return
-
     result = []
     for i, j in zip(a, n):
         result.append(i + j)
 
     print("The sum of the values are:", result)
-    break
 
 hello()
