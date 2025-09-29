@@ -1,4 +1,4 @@
-"""#[start:end:step], P->0, Y->1...N->5
+#[start:end:step], P->0, Y->1...N->5
 text ="Hello"
 print("Lets do slicing",text[0:2])
 print("Lets do slicing",text[4:])
@@ -14,7 +14,6 @@ for i in range(len(text)):
     print(text[i:])
     
 print("\n------------------While loop----------------------------") 
-
 i =1
 # start from 0
 while i <= len(text):
@@ -33,10 +32,8 @@ while i > 0:
 i = len(text)   # start from 6
 while i >= 0:
     print(text[i:])
-    i -= 1
-    
-    
-    print("\n------------------Basics----------------------------") """
+    i -= 
+1print("\n------------------Basics----------------------------") 
     
 a=int(input("PLease enter a number for A: "))
 b=int(input("PLease enter a number for B: "))
